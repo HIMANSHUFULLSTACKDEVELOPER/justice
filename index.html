@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justice-Law Enhanced Navbar</title>
+   <!-- icons -->
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/1208/1208147.png" type="image/x-icon" />
+    <!-- Animate.css for entrance animations -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Theme color for mobile browsers -->
+    <meta name="theme-color" content="#F0C871" />
+    <link rel="stylesheet" href="./style/index.css" />
+  </head>
+  <body>
+    <nav class="navbar-custom animate-in">
+      <div class="navbar-container">
+        <!-- Logo Section -->
+        <div class="logo-section">
+          <div class="logo-icon">
+            <i class="fas fa-balance-scale"></i>
+          </div>
+          <a href="#" class="logo-text">Justice</a>
+        </div>
+
+        <!-- Navigation Menu -->
+        <ul class="nav-menu">
+          <li>
+            <a href="#home" class="nav-link active"
+              ><i class="fas fa-home"></i>Home</a
+            >
+          </li>
+          <li>
+            <a href="#legal-partner" class="nav-link"
+              ><i class="fas fa-info-circle"></i>About</a
+            >
+          </li>
+          <li>
+            <a href="#practice" class="nav-link"
+              ><i class="fas fa-gavel"></i>Practice</a
+            >
+          </li>
+          <li>
+            <a href="#services" class="nav-link"
+              ><i class="fas fa-briefcase"></i>Services</a
+            >
+          </li>
+          <li>
+            <a href="#news" class="nav-link"
+              ><i class="fas fa-newspaper"></i>News</a
+            >
+          </li>
+
+          <li>
+            <a href="#contact" class="nav-link"
+              ><i class="fas fa-envelope"></i>Contact</a
+            >
+          </li>
+        </ul>
+
+        <!-- Search Section -->
+        <div class="search-section">
+          <div class="search-toggle" id="searchToggle">
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="mobile-toggle" id="mobileToggle">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="search-bar" id="searchBar">
+        <button class="search-close" id="searchClose">
+          <i class="fas fa-times"></i>
+        </button>
+        <div class="search-container">
+          <form class="search-form">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search for legal services, lawyers, or legal information..."
+              id="searchInput"
+            />
+            <button type="submit" class="search-submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="animate__animated animate__fadeInDown">
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              margin-bottom: 1rem;
+            "
+          >
+            <i
+              class="bi bi-chat-dots-fill"
+              style="margin-right: 0.5rem; font-size: 1.25rem; color: #f0c871"
+            ></i>
+            <span class="text-gold" style="font-weight: 600"
+              >Need any help..?</span
+            >
+          </div>
+          <h1 class="display-5" style="font-weight: bold">
+            Your Strategic Legal <br />Partner
+          </h1>
+          <p class="lead text-gold">Your Rights. Our Mission.</p>
+          <div style="margin-top: 1.5rem">
+            <a href="#" class="btn btn-gold">Book Consultant</a>
+            <a href="#" class="btn btn-outline-light">Our Services</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about -->
+
+    <section class="legal-fullscreen-section" id="legal-partner">
+      <div class="legal-container" data-aos="fade-up">
+        <!-- Header -->
+        <div class="legal-header" data-aos="fade-down">
+          <h1>About us</h1>
+          <h2>
+            Your Trusted Partner for Reliable
+            <span class="text-highlight">Legal Solutions</span>
+          </h2>
+        </div>
+
+        <!-- Content -->
+        <div class="legal-body">
+          <!-- Image -->
+          <div class="legal-img" data-aos="zoom-in">
+            <img
+              src="https://legaldesire.com/wp-content/uploads/2021/04/AdobeStock_205600667.jpeg"
+              alt="Lawyer"
+            />
+          </div>
+
+          <!-- Text -->
+          <div class="legal-text" data-aos="fade-left">
+            <h3>Avd. Aditya Kashyab</h3>
+            <p>
+              With experienced attorneys who can handle a broad range of complex
+              legal issues for businesses, governmental entities, organizations,
+              professionals, and individuals at the local, regional, and
+              national levels. Through more than 130 years of practicing law,
+              the firm has developed the deep knowledge base and sound judgment
+              that delivers value to our clients. Bouhan Falligant attracts
+              exceptional attorneys who are diligent, determined and care about
+              the success of its clients.
+            </p>
+
+            <div class="legal-footer">
+              <div class="since-box" data-aos="fade-up-right">
+                <div class="square"></div>
+                <div class="since-text">
+                  <p>Since</p>
+                  <h4>2015</h4>
+                </div>
+              </div>
+              <a href="#" class="learn-btn" data-aos="zoom-in-up"
+                >Learn more →</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- infro -->
+    <!-- Lawyer Info Section with Scroll and Hover Effects -->
+    <section class="lawyer-info" id="lawyer-info">
+      <div class="overlay"></div>
+      <div
+        class="container content"
+        data-aos="zoom-in-up"
+        data-aos-duration="1200"
+      >
+        <h2 class="main-heading" data-aos="fade-up" data-aos-delay="100">
+          <span class="highlight"
+            >Fighting for Justice, Securing Your Future:</span
+          ><br />
+          <span class="bold-hover"
+            >Trusted Advocates for Personal Injury Victims</span
+          >
+        </h2>
+        <p class="lead" data-aos="fade-up" data-aos-delay="300">
+          We are dedicated to protecting your rights and ensuring that you get
+          the justice you deserve. With years of experience and a passion for
+          helping our clients, we're here to guide you through every step of the
+          legal process.
+        </p>
+      </div>
+    </section>
+
+    <!-- area -->
+    <section class="section">
+      <div class="left" data-aos="fade-right" id="practice">
+        <h2>Practice Areas</h2>
+        <div class="grid">
+          <div class="card" data-aos="zoom-in">
+            <img
+              src="https://drarvindersingh.com/wp-content/uploads/2023/12/Importance-of-Medical-Law-and-Ethics-in-Indian-Healthcare.jpg"
+              alt="Medical"
+            />
+            <div class="card-titless">Medical & Health Care</div>
+          </div>
+          <div class="card" data-aos="zoom-in" data-aos-delay="100">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwaJU9YKyeXpHYeA65bGXfC1vUuvRuND0GFQ&s"
+              alt="Construction"
+            />
+            <div class="card-titless">Construction Accidents</div>
+          </div>
+          <div class="card" data-aos="zoom-in" data-aos-delay="200">
+            <img
+              src="https://blog.ipleaders.in/wp-content/uploads/2016/12/The-ins-and-outs-of-family-law.jpg"
+              alt="Family"
+            />
+            <div class="card-titless">Family & Marriage</div>
+          </div>
+          <div class="card" data-aos="zoom-in" data-aos-delay="300">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQogWZlgkkcmgCClz7yCp6EklNH9yzinx4cLA&s"
+              alt="Vehicle"
+            />
+            <div class="card-titless">Vehicle Accidents</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="right" data-aos="fade-left">
+        <h3>Reputation. Respect. Result.</h3>
+        <p>
+          Over the years, Bouhan Falligant has been proud to represent its
+          clients with professionalism, integrity and zeal. The firm continues
+          its tradition of providing a complete and diverse offering of legal
+          services to its clients.
+        </p>
+        <p>
+          Over the years, Bouhan Falligant has been proud to represent its
+          clients with professionalism, integrity and zeal. The firm continues
+          its tradition of providing a complete and diverse offering of legal
+          services to its clients.
+        </p>
+        <p>
+          Over the years, Bouhan Falligant has been proud to represent its
+          clients with professionalism, integrity and zeal. The firm continues
+          its tradition of providing a complete and diverse offering of legal
+          services to its clients.
+        </p>
+        <button class="btn">View all Areas</button>
+      </div>
+    </section>
+    <br /><br />
+    <!-- Stats Section -->
+    <section class="stats-section container-fluid">
+      <div class="row text-center">
+        <div class="col-md-4">
+          <div class="stats-number">10+</div>
+          <div>Year Experience</div>
+        </div>
+        <div class="col-md-4">
+          <div class="stats-number">20+</div>
+          <div>Awards & Honor</div>
+        </div>
+        <div class="col-md-4">
+          <div class="stats-number">98%</div>
+          <div>Happy Client</div>
+        </div>
+      </div>
+    </section>
+    <br /><br />
+    <!-- Why Choose Us Title -->
+    <h2 class="section-title">Why Choose Us</h2>
+
+    <!-- Info Cards -->
+    <section class="info-cards container">
+      <div class="info-card text-center">
+        <i class="bi bi-person-badge"></i>
+        <h5>Proven Experts</h5>
+        <p>
+          Our team of seasoned legal experts brings extensive knowledge and
+          experience to navigate complex regulatory challenges effectively.
+        </p>
+      </div>
+      <div class="info-card text-center">
+        <i class="bi bi-journal-check"></i>
+        <h5>Proven Track Record</h5>
+        <p>
+          With years of success in handling complex legal matters, we have
+          earned a reputation for delivering effective and timely results.
+        </p>
+      </div>
+      <div class="info-card text-center">
+        <i class="bi bi-gear-wide-connected"></i>
+        <h5>Tailored Approach</h5>
+        <p>
+          Expertly Tailored Legal Solutions Designed to Meet Your Unique,
+          Specific Needs and Drive Meaningful Outcomes.
+        </p>
+      </div>
+    </section>
+
+    <!-- Justice Hero Section -->
+    <section class="justice-hero" id="justice-hero">
+      <!-- Background Video -->
+      <video class="justice-video" autoplay muted loop playsinline>
+        <source src="./Black and Yellow Modern Lawyer Agency Intro Promotion Video.mp4" type="video/mp4" />
+      </video>
+
+      <!-- Dark Overlay -->
+      <div class="justice-overlay"></div>
+
+      <!-- Justice Hero Text Content -->
+      <div class="justice-content container" data-aos="fade-up">
+        <h1>
+          <span class="highlight-yellow">Fighting for Justice,</span>
+          <span class="highlight-white">Securing Your Future</span>
+        </h1>
+        <p class="justice-quote" data-aos="fade-up" data-aos-delay="300">
+          “Our mission is clear: protect your rights with integrity and
+          strength.”
+        </p>
+      </div>
+    </section>
+
+    <!-- ask question -->
+
+    <div class="law-justice-scroll-progress"></div>
+
+    <!-- FAQ Section -->
+    <section class="law-justice-faq-section">
+      <div class="container">
+        <div class="law-justice-decoration">
+          <i class="fas fa-balance-scale"></i>
+        </div>
+        <h2 class="law-justice-faq-title" data-aos="fade-up">
+          Frequently Asked Questions
+        </h2>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="law-justice-faq-item" data-aos="fade-up">
+              <button
+                class="law-justice-faq-question"
+                onclick="toggleFaq(this)"
+              >
+                What services does LawJustice offer?
+              </button>
+              <div class="law-justice-faq-answer">
+                <p>
+                  We provide corporate law, litigation, legal consultation,
+                  contracts, and more.
+                </p>
+              </div>
+            </div>
+            <div class="law-justice-faq-item" data-aos="fade-up">
+              <button
+                class="law-justice-faq-question"
+                onclick="toggleFaq(this)"
+              >
+                What services does LawJustice offer?
+              </button>
+              <div class="law-justice-faq-answer">
+                <p>
+                  We provide corporate law, litigation, legal consultation,
+                  contracts, and more.
+                </p>
+              </div>
+            </div>
+            <div class="law-justice-faq-item" data-aos="fade-up">
+              <button
+                class="law-justice-faq-question"
+                onclick="toggleFaq(this)"
+              >
+                What services does LawJustice offer?
+              </button>
+              <div class="law-justice-faq-answer">
+                <p>
+                  We provide corporate law, litigation, legal consultation,
+                  contracts, and more.
+                </p>
+              </div>
+            </div>
+            <div class="law-justice-faq-item" data-aos="fade-up">
+              <button
+                class="law-justice-faq-question"
+                onclick="toggleFaq(this)"
+              >
+                How can I schedule a consultation?
+              </button>
+              <div class="law-justice-faq-answer">
+                <p>
+                  Click "Book Consultant", call us, or use our contact form to
+                  schedule a session.
+                </p>
+              </div>
+            </div>
+            <div class="law-justice-faq-item" data-aos="fade-up">
+              <button
+                class="law-justice-faq-question"
+                onclick="toggleFaq(this)"
+              >
+                What industries do you serve?
+              </button>
+              <div class="law-justice-faq-answer">
+                <p>
+                  We serve tech, health, finance, real estate, manufacturing,
+                  and more sectors.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="law-justice-hero-section">
+      <div class="law-justice-hero-content">
+        <div class="floating">
+          <p class="law-justice-tagline" data-aos="fade-up">
+            get started today
+          </p>
+          <h1 class="law-justice-title" data-aos="fade-up">
+            Let LawJustice Be Your
+          </h1>
+          <h2 class="law-justice-subtitle" data-aos="fade-up">
+            Trusted Legal Partner
+          </h2>
+          <a
+            style="text-decoration: none"
+            href="tel:8788209773"
+            class="law-justice-cta-button"
+            data-aos="fade-up"
+          >
+            <i class="fas fa-calendar-alt me-2"></i>Book Consultant
+          </a>
+        </div>
+      </div>
+    </section>
+    <br /><br />
+    <div class="mains-containeress" id="contact">
+      <!-- Left Form Section -->
+      <div class="form-section">
+        <div class="form-content">
+          <h1 class="form-title" data-aos="fade-down">Ready to Get Started?</h1>
+          <p class="contact-info" data-aos="fade-up" data-aos-delay="200">
+            Fill out the form below or call us at
+            <a href="tel:+12345678901">+1 (234) 567-890</a>
+          </p>
+
+          <form data-aos="fade-up" data-aos-delay="400">
+            <div class="form-group">
+              <label class="form-label">Full Name</label>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Your Name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Email Address</label>
+              <input
+                type="email"
+                class="form-control"
+                placeholder="you@example.com"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Phone Number</label>
+              <input
+                type="tel"
+                class="form-control"
+                placeholder="(123) 456-7890"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Your Message</label>
+              <textarea
+                class="form-control"
+                placeholder="Tell us about your case..."
+                required
+              ></textarea>
+            </div>
+
+            <button
+              type="submit"
+              class="btn btn-send"
+              data-aos="zoom-in"
+              data-aos-delay="600"
+            >
+              <i class="fas fa-paper-plane me-2"></i>Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <div class="right-section">
+        <div class="floating-elements">
+          <div class="floating-circle"></div>
+          <div class="floating-circle"></div>
+          <div class="floating-circle"></div>
+        </div>
+
+        
+          <div class="map-placeholder">
+            <!-- Google Map Embed -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60309.14479563834!2d79.01777943572456!3d21.157464313975787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c05bd5c33afd%3A0xb36af36b13446c56!2sRAJ%20LAW%20ASSOCIATES!5e1!3m2!1sen!2sin!4v1750939903369!5m2!1sen!2sin"
+              width="100%"
+              height="950"
+              style="border: 0; margin-top: 15px"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+       
+
+        
+      </div>
+    </div>
+
+    <!-- Main Footer Section -->
+    <footer class="main-footer" data-aos="fade-up">
+      <div class="container">
+       
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+          <div class="footer-bottom-left">
+            
+            <p style="font-size: 0.8rem; margin-top: 10px">
+              Attorney Advertising. Prior results do not guarantee a similar
+              outcome.
+            </p>
+            <p>
+              &copy; 2025 Justice. All rights reserved. <br> Design and Developed by
+              <strong style="color: #ffc107"
+                >  Enjoy Programming</strong
+              >
+            </p>
+          </div>
+          <div class="footer-social-icons">
+            <a href="#" class="footer-social-icon" title="Facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="footer-social-icon" title="Twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="footer-social-icon" title="LinkedIn">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="#" class="footer-social-icon" title="YouTube">
+              <i class="fab fa-youtube"></i>
+            </a>
+            <a href="#" class="footer-social-icon" title="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- contact us -->
+
+    <script src="./js/index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
